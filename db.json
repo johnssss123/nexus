@@ -1,0 +1,86 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Johnny Appleseed",
+      "role": "Backend Developer"
+    },
+    {
+      "id": "2",
+      "name": "Sara Kim",
+      "role": "Product Manager"
+    },
+    {
+      "name": "ram ",
+      "role": "manager",
+      "id": "CWT3HbQ9awE"
+    },
+    {
+      "name": "harry ",
+      "role": "ui ux designer ",
+      "id": "oof27_d0vlA"
+    },
+    {
+      "name": "asdf",
+      "role": "asf",
+      "id": "ksiPyQ0CPO4"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "NEXUS CRM Module",
+      "status": "Active",
+      "deadline": "2026-10-15"
+    },
+    {
+      "id": "2",
+      "name": "Invoice Automation",
+      "status": "Planning",
+      "deadline": "2026-11-01"
+    },
+    {
+      "name": "news",
+      "status": "Planning",
+      "deadline": "",
+      "id": "ES_oDHSPkDU"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design employee schema",
+      "status": "Done",
+      "projectId": 1
+    },
+    {
+      "id": "2",
+      "title": "Build CRM UI",
+      "status": "In Progress",
+      "projectId": 1
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "client": "Acme Corp",
+      "amount": 4200,
+      "status": "Paid"
+    },
+    {
+      "id": "2",
+      "client": "Globex Inc",
+      "amount": 3100,
+      "status": "Pending"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@nexus.com",
+      "password": "admin123",
+      "name": "Johnny Admin"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
